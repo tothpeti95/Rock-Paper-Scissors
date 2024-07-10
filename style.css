@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #dfdfdf;
+}
+
+.wrapper {
+  min-height: 100vh;
+  display: grid;
+}
+
+.play-ground{
+  place-self: center;
+  width: 400px;
+  background: #fff;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.play-ground h1 {
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.play-ground .interacts {
+  text-align: center;
+}
+
+.play-ground .interacts h2 {
+  margin-bottom: 15px;
+}
+
+.play-ground .interacts .buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  width: 100px;
+  height: 35px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  background: rgb(133, 97, 230);
+  font-weight: 900;
+}
+
+.btn:hover {
+  background-color: rgb(172, 148, 240);
+  cursor: pointer;
+}
+
+.picked-wrapper {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.picked-wrapper .picked {
+  display: flex;
+  justify-content: center;
+  border: 1px dashed black;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.picked-wrapper .picked:nth-child(2) {
+  margin-left: 20px;
+}
+
+.picked h3:nth-child(1){
+  margin-right: 10px;
+}
+
+.interacts .result {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.interacts .result h2{
+  margin-top: 20px;
+  margin-left: 10px;
+}
+

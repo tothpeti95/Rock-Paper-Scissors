@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock-Paper-Scissors</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="play-ground">
+      <h1>Kő - Papír - Olló</h1>
+      <div class="interacts">
+        <h2>Válasz ezek közül:</h2>
+        <div class="buttons">
+          <button class="btn" id="rock" onclick="chooseRock()">Kő</button>
+          <button class="btn" id="paper" onclick="choosePaper()">Papír</button>
+          <button class="btn" id="scissors" onclick="chooseScissors()">Olló</button>
+        </div>
+        <div class="picked-wrapper">
+          <div class="picked">
+            <h3>Te: </h3>
+            <h3 id="user"></h3>
+          </div>
+          <div class="picked">
+            <h3>Gép: </h3>
+            <h3 id="machine"></h3>
+          </div>
+        </div>
+        <div class="result">
+          <h2>A játék:</h2>
+          <h2 id="game"></h2>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
